@@ -14,17 +14,17 @@
 	--color-gray-900: oklch(0.216 0.006 56.043);
 	--color-gray-950: oklch(0.147 0.004 49.25);
 
-	--color-primary-50: oklch(0.982 0.018 155.826);
-	--color-primary-100: oklch(0.962 0.044 156.743);
-	--color-primary-200: oklch(0.925 0.084 155.995);
-	--color-primary-300: oklch(0.871 0.15 154.449);
-	--color-primary-400: oklch(0.792 0.209 151.711);
-	--color-primary-500: oklch(0.723 0.219 149.579);
-	--color-primary-600: oklch(0.627 0.194 149.214);
-	--color-primary-700: oklch(0.527 0.154 150.069);
-	--color-primary-800: oklch(0.448 0.119 151.328);
-	--color-primary-900: oklch(0.393 0.095 152.535);
-	--color-primary-950: oklch(0.266 0.065 152.934);
+	--color-primary-50: oklch(0.98 0.016 73.684);
+	--color-primary-100: oklch(0.954 0.038 75.164);
+	--color-primary-200: oklch(0.901 0.076 70.697);
+	--color-primary-300: oklch(0.837 0.128 66.29);
+	--color-primary-400: oklch(0.75 0.183 55.934);
+	--color-primary-500: oklch(0.705 0.213 47.604);
+	--color-primary-600: oklch(0.646 0.222 41.116);
+	--color-primary-700: oklch(0.553 0.195 38.402);
+	--color-primary-800: oklch(0.47 0.157 37.304);
+	--color-primary-900: oklch(0.408 0.123 38.172);
+	--color-primary-950: oklch(0.266 0.079 36.259);
 
 	--color-secondary-50: oklch(97% 0.015 30);
 	--color-secondary-100: oklch(92% 0.02 30);
@@ -42,8 +42,8 @@
 	--font-display: "Newsreader", serif;
 	--font-mono: "JetBrains Mono", monospace;
 
-	--color-brand-green: #009045;
-	--color-brand-green-hover: #007a3a;
+	--color-brand-orange: #D97706;
+	--color-brand-orange-hover: #B45309;
 	--color-brand-dark: #121212;
 	--color-bg-beige: #EAEAE8;
 	--color-bg-card: #F3F3F1;

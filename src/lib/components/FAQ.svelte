@@ -3,32 +3,32 @@
 
 	const faqs = [
 		{
-			question: "How does Greptile pricing work?",
-			answer: "Greptile charges per active developer. An active developer is anyone who opens a PR in a given month."
+			question: "How does Goji pricing work?",
+			answer: "Goji uses a credit-based system. Credits are consumed based on your prompt length and generated output. We offer three tiers: Hobby (free, 100 credits), Indie ($20/month, 3,000 credits), and Studio ($40/user/month, 6,000 credits per seat)."
 		},
 		{
-			question: "Can Greptile be self-hosted?",
-			answer: "Yes, Greptile can be deployed in your own VPC or on-premise environment. Contact us for enterprise pricing."
+			question: "Does Goji only work with Godot?",
+			answer: "Yes, Goji is specifically designed for Godot game development. It generates GDScript code and understands Godot's scene system and architecture."
 		},
 		{
-			question: "Are there free trials or discounts available for Greptile?",
-			answer: "Yes, we offer a 14-day free trial with no credit card required. We also offer discounts for startups and open source projects."
+			question: "Do I own the code that Goji generates?",
+			answer: "Absolutely! You own all code generated using Goji. There are no IP claims by us on your content, and you can use it commercially without any restrictions."
 		},
 		{
-			question: "What programming languages does Greptile support?",
-			answer: "Greptile supports over 30 languages including Python, TypeScript/JavaScript, Go, Rust, Java, C++, and more."
+			question: "Which AI models does Goji support?",
+			answer: "Goji supports multiple AI models including Claude, Gemini, and other top models. You can choose different models for different tasks from a single interface."
 		},
 		{
-			question: "Is Greptile compatible with GitLab?",
-			answer: "Yes, Greptile works with both GitHub and GitLab."
+			question: "Is Goji available on Linux?",
+			answer: "Currently, Goji is available for macOS and Windows. Linux support is on our roadmap based on community demand."
 		},
 		{
-			question: "Can I use Greptile's API for my own product?",
-			answer: "Yes, we have a comprehensive API. Check out our documentation for more details."
+			question: "Does Goji require an internet connection?",
+			answer: "Yes, Goji needs internet to access AI models. However, your project files stay local on your machine—we don't upload or store your game code."
 		},
 		{
-			question: "What is AI code review?",
-			answer: "AI code review uses large language models to analyze your code changes and provide feedback on bugs, security issues, and coding standards."
+			question: "Can I use Goji for commercial games?",
+			answer: "Yes! All code generated with Goji can be used in commercial projects. You retain full ownership and rights to everything you create."
 		}
 	];
 
@@ -51,7 +51,7 @@
 			<p class="font-mono text-sm text-gray-600 mb-8">
 				Your question not answered here?
 			</p>
-			<button class="bg-brand-green text-white px-5 py-2.5 rounded text-sm font-medium hover:bg-brand-green-hover transition-colors flex items-center gap-2 font-mono uppercase tracking-wide text-xs">
+			<button class="bg-primary-600 text-white px-5 py-2.5 rounded text-sm font-medium hover:bg-primary-700 transition-colors flex items-center gap-2 font-mono uppercase tracking-wide text-xs">
 				<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
 				Contact Us
 			</button>
@@ -61,7 +61,7 @@
 			{#each faqs as faq, i}
 				<div class="border-b border-gray-200 pb-4">
 					<button class="w-full flex items-center justify-between text-left py-2 group" on:click={() => toggle(i)}>
-						<span class="font-mono text-sm font-medium text-gray-800 group-hover:text-brand-green transition-colors pr-8">{faq.question}</span>
+						<span class="font-mono text-sm font-medium text-gray-800 group-hover:text-primary-600 transition-colors pr-8">{faq.question}</span>
 						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-gray-400 transition-transform duration-300 {openIndex === i ? 'rotate-180' : ''}"><path d="m6 9 6 6 6-6"/></svg>
 					</button>
 					{#if openIndex === i}

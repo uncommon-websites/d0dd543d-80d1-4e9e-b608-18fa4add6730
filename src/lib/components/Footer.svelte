@@ -3,48 +3,44 @@
 		<div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 mb-16">
 			<div class="col-span-2 lg:col-span-1">
 				<a href="/" class="flex items-center gap-2 text-brand-dark font-medium text-xl tracking-tight mb-6">
-					<div class="w-6 h-6 bg-brand-green rounded-sm flex items-center justify-center text-white text-xs font-bold">G</div>
-					Greptile
+					<div class="w-6 h-6 bg-primary-600 rounded-sm flex items-center justify-center text-white text-xs font-bold">G</div>
+					Goji
 				</a>
 			</div>
 			
 			<div>
 				<h4 class="font-mono text-[10px] font-bold text-gray-900 uppercase tracking-widest mb-4">Product</h4>
 				<ul class="space-y-3">
-					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-brand-green transition-colors">Pricing</a></li>
-					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-brand-green transition-colors">Docs ↗</a></li>
-					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-brand-green transition-colors">API ↗</a></li>
-					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-brand-green transition-colors">Zapier ↗</a></li>
-					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-brand-green transition-colors">Security</a></li>
-					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-brand-green transition-colors">Privacy</a></li>
-					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-brand-green transition-colors">Status</a></li>
+					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-primary-600 transition-colors">Pricing</a></li>
+					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-primary-600 transition-colors">Download</a></li>
+					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-primary-600 transition-colors">Docs ↗</a></li>
+					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-primary-600 transition-colors">Features</a></li>
+					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-primary-600 transition-colors">Changelog</a></li>
+					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-primary-600 transition-colors">Roadmap</a></li>
 				</ul>
 			</div>
 
 			<div>
-				<h4 class="font-mono text-[10px] font-bold text-gray-900 uppercase tracking-widest mb-4">Company</h4>
+				<h4 class="font-mono text-[10px] font-bold text-gray-900 uppercase tracking-widest mb-4">Resources</h4>
 				<ul class="space-y-3">
-					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-brand-green transition-colors">Blog</a></li>
-					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-brand-green transition-colors">Deep Dives</a></li>
-					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-brand-green transition-colors">Case Studies</a></li>
-					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-brand-green transition-colors">Examples</a></li>
-					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-brand-green transition-colors">Enterprise</a></li>
-					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-brand-green transition-colors">Careers</a></li>
-					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-brand-green transition-colors">Terms of Service</a></li>
-					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-brand-green transition-colors">Contact us</a></li>
+					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-primary-600 transition-colors">Blog</a></li>
+					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-primary-600 transition-colors">Tutorials</a></li>
+					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-primary-600 transition-colors">Community</a></li>
+					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-primary-600 transition-colors">Discord ↗</a></li>
+					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-primary-600 transition-colors">Examples</a></li>
+					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-primary-600 transition-colors">Support</a></li>
 				</ul>
 			</div>
 
 			<div>
-				<h4 class="font-mono text-[10px] font-bold text-gray-900 uppercase tracking-widest mb-4">Helpful Links</h4>
+				<h4 class="font-mono text-[10px] font-bold text-gray-900 uppercase tracking-widest mb-4">Compare</h4>
 				<ul class="space-y-3">
-					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-brand-green transition-colors">For YC Companies &lt;3</a></li>
-					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-brand-green transition-colors">Greptile vs CodeRabbit</a></li>
-					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-brand-green transition-colors">Greptile vs Bugbot</a></li>
-					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-brand-green transition-colors">What affects merge time?</a></li>
-					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-brand-green transition-colors">What is AI code review?</a></li>
-					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-brand-green transition-colors">Benchmarks</a></li>
-					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-brand-green transition-colors">Content Library</a></li>
+					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-primary-600 transition-colors">Goji vs Cursor</a></li>
+					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-primary-600 transition-colors">Goji vs Copilot</a></li>
+					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-primary-600 transition-colors">Why Godot?</a></li>
+					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-primary-600 transition-colors">AI for Game Dev</a></li>
+					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-primary-600 transition-colors">Terms of Service</a></li>
+					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-primary-600 transition-colors">Privacy Policy</a></li>
 				</ul>
 			</div>
 		</div>
@@ -69,7 +65,7 @@
 			</div>
 			
 			<div class="text-[10px] font-mono text-gray-500 uppercase tracking-widest">
-				© 2024 Tazman, Inc.
+				© 2024 Goji
 			</div>
 		</div>
 	</div>

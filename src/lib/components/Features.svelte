@@ -11,56 +11,56 @@
 	<div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-16 gap-6 relative z-10">
 		<div>
 			<span class="font-mono text-[10px] text-gray-500 uppercase tracking-widest mb-4 block">
-				[ SHIP FASTER ]
+				[ AI AT YOUR SIDE ]
 			</span>
 			<h2 class="font-display text-4xl md:text-5xl lg:text-6xl font-medium tracking-tight text-gray-900 mb-4">
-				Your second pair of eyes.
+				From idea to playable game.
 			</h2>
 			<p class="font-mono text-sm text-gray-600 max-w-lg">
-				Greptile automatically reviews PRs in Github and GitLab with full context of your codebase.
+				Goji bridges the gap between your game idea and working Godot code with natural language commands.
 			</p>
 		</div>
 		
 		<button class="bg-black text-white px-5 py-2.5 rounded text-sm font-medium hover:bg-gray-800 transition-colors flex items-center gap-2 font-mono uppercase tracking-wide text-xs">
-			See Greptile in action ->
+			See Goji in action ->
 		</button>
 	</div>
 
 	<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
 		<FeatureCard 
-			subtitle="[ IN-LINE COMMENTS ]"
-			title="Get context-aware<br>comments on your PRs"
-			description="In-line comments to identify bugs, antipatterns, security issues, and more."
-			tagColor="bg-brand-green"
+			subtitle="[ NATURAL LANGUAGE ]"
+			title="Generate scripts with<br>simple commands"
+			description="Type what you want in plain English. Goji generates GDScript code that matches your game's architecture."
+			tagColor="bg-primary-600"
 			tagIcon="arrow"
-            imageSrc="https://placehold.co/600x400/FFFFFF/E5E7EB?text=PR+Comments+UI"
+            imageSrc="/generated/image-close-up-of-hands-typing-code-on-mechani-1765491626213-1.webp"
 		/>
 		
 		<FeatureCard 
-			subtitle="[ CUSTOM CONTEXT ]"
-			title="Describe your coding<br>standards in English"
-			description="Tell Greptile about your team's best practices. Greptile will enforce them across PRs."
+			subtitle="[ SCENE BUILDER ]"
+			title="Create complete scenes<br>instantly"
+			description="Describe your scene and Goji builds it with nodes, properties, and connections ready to go."
 			tagColor="bg-accent-orange"
 			tagIcon="plus"
-            imageSrc="https://placehold.co/600x400/FFFFFF/E5E7EB?text=Coding+Standards+UI"
+            imageSrc="/generated/image-computer-screen-showing-a-2d-game-scene--1765491628476-2.webp"
 		/>
 		
 		<FeatureCard 
-			subtitle="[ PR SUMMARIES ]"
-			title="Quickly understand PRs<br>with AI-generated summaries"
-			description="Get mermaid diagrams, file-by-file breakdowns, and confidence scores for every PR."
+			subtitle="[ MULTI-MODEL AI ]"
+			title="Choose the best AI<br>for each task"
+			description="Access Claude, Gemini, and more from one interface. Pick the right model for your needs."
 			tagColor="bg-accent-pink"
 			tagIcon="arrow"
-            imageSrc="https://placehold.co/600x400/FFFFFF/E5E7EB?text=PR+Summaries+UI"
+            imageSrc="/generated/image-multiple-ai-model-logos-and-interfaces-d-1765491630802-3.webp"
 		/>
 		
 		<FeatureCard 
-			subtitle="[ LEARNING ]"
-			title="Greptile learns by<br>reading your comments"
-			description="Greptile infers your team's coding standards by reading every engineer's comments on PRs."
+			subtitle="[ CODEBASE AWARE ]"
+			title="AI that understands<br>your project"
+			description="Goji analyzes your entire game project to generate code that fits your style and architecture."
 			tagColor="bg-accent-yellow"
 			tagIcon="plus"
-            imageSrc="https://placehold.co/600x400/FFFFFF/E5E7EB?text=Learning+UI"
+            imageSrc="/generated/image-game-developer-analyzing-project-files-a-1765491633163-4.webp"
 		/>
 	</div>
 </section>
