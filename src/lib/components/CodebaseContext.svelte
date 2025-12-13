@@ -1,18 +1,22 @@
-<section class="bg-primary-100 py-24 px-6 md:px-12 relative overflow-hidden">
+<section class="bg-gradient-to-br from-accent-yellow/10 via-accent-pink/10 to-accent-orange/10 py-24 px-6 md:px-12 relative overflow-hidden">
+	<!-- Playful decorative elements -->
+	<div class="absolute top-20 left-10 w-24 h-24 border-4 border-accent-pink/30 rounded-full animate-pulse"></div>
+	<div class="absolute bottom-20 right-20 w-32 h-32 border-4 border-accent-yellow/30 rotate-45 animate-pulse" style="animation-delay: 1s;"></div>
+	
 	<div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center relative z-10">
 		<div>
-			<span class="font-mono text-[10px] text-gray-600 uppercase tracking-widest mb-4 block">
-				[ FULL PROJECT UNDERSTANDING ]
+			<span class="text-sm text-accent-orange font-bold mb-4 block flex items-center gap-2">
+				<span class="animate-bounce">🧠</span> Super smart AI
 			</span>
 			<h2 class="font-display text-4xl md:text-5xl lg:text-6xl font-medium tracking-tight text-gray-900 mb-6 leading-[0.95]">
-				Knows Your<br>Game Inside Out
+				Knows your game<br>inside out 🔍
 			</h2>
-			<p class="font-mono text-sm text-gray-700 max-w-md mb-8 leading-relaxed">
-				Goji analyzes your entire Godot project to understand your game's architecture, coding style, and patterns. Generated code fits seamlessly into your existing project.
+			<p class="text-base text-gray-700 max-w-md mb-8 leading-relaxed">
+				Goji reads your whole project like a book! It learns your style and makes code that fits right in. No awkward copy-paste vibes here.
 			</p>
 			
-			<button class="bg-primary-600 text-white px-5 py-2.5 rounded text-sm font-medium hover:bg-primary-700 transition-colors flex items-center gap-2 font-mono uppercase tracking-wide text-xs w-fit">
-				Learn more ->
+			<button class="bg-gradient-to-r from-accent-orange to-primary-600 text-white px-6 py-3 rounded-full text-sm font-bold hover:scale-105 transition-transform flex items-center gap-2 shadow-lg w-fit">
+				See how it works ✨ →
 			</button>
 		</div>
 

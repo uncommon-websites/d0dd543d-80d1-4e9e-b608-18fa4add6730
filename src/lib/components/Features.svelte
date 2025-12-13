@@ -10,19 +10,19 @@
 
 	<div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-16 gap-6 relative z-10">
 		<div>
-			<span class="font-mono text-[10px] text-gray-500 uppercase tracking-widest mb-4 block">
-				[ AI AT YOUR SIDE ]
+			<span class="text-sm text-accent-orange font-bold mb-4 block flex items-center gap-2">
+				<span class="animate-pulse">🤖</span> Your AI game buddy
 			</span>
 			<h2 class="font-display text-4xl md:text-5xl lg:text-6xl font-medium tracking-tight text-gray-900 mb-4">
-				From idea to playable game.
+				From idea to playable game 🎮
 			</h2>
-			<p class="font-mono text-sm text-gray-600 max-w-lg">
-				Goji bridges the gap between your game idea and working Godot code with natural language commands.
+			<p class="text-base text-gray-700 max-w-lg">
+				Goji turns your wild game ideas into real Godot code. Just tell it what you want!
 			</p>
 		</div>
 		
-		<button class="bg-black text-white px-5 py-2.5 rounded text-sm font-medium hover:bg-gray-800 transition-colors flex items-center gap-2 font-mono uppercase tracking-wide text-xs">
-			See Goji in action ->
+		<button class="bg-gradient-to-r from-gray-900 to-gray-700 text-white px-6 py-3 rounded-full text-sm font-bold hover:scale-105 transition-transform flex items-center gap-2 shadow-lg">
+			Watch the magic ✨ →
 		</button>
 	</div>
 
